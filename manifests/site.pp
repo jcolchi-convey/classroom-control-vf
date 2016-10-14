@@ -60,7 +60,6 @@ node default {
   }
   $message = hiera('message')
     notify { $message: }
-  }
 #include users
 #  include skeleton
 }
