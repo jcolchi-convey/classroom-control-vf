@@ -25,4 +25,5 @@ class nginx (
      default : {
 	fail("Module ${module_name} is not supported on ${::osfamily}")
      }
+   }
 }
